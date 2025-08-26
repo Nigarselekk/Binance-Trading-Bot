@@ -1,0 +1,76 @@
+/* File: src/styles/TradingHistory.css */
+
+.trading-history {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.trading-history h2 {
+  text-align: center;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.controls label {
+  font-size: 14px;
+  color: #495057;
+}
+
+.controls select {
+  margin-left: 10px;
+  padding: 5px;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+}
+
+.controls button {
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  background-color: #0056b3;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table th,
+table td {
+  border: 1px solid #dee2e6;
+  padding: 10px;
+  text-align: left;
+  font-size: 0.9rem;
+}
+
+table th {
+  background-color: #f1f1f1;
+  color: #343a40;
+  font-weight: bold;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table tr:hover {
+  background-color: #e9ecef;
+}

@@ -1,0 +1,11 @@
+.app {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}

@@ -1,0 +1,27 @@
+/* File: src/styles/LiveTradingPage.css */
+
+.live-trading-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.page-title {
+  color: #007bff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+  color: #495057;
+  margin: 5px 0;
+}
+
+.chart {
+  margin-top: 20px;
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  padding: 15px;
+  border-radius: 5px;
+}

@@ -1,0 +1,38 @@
+# Backend build
+**/bin/
+**/obj/
+.vs/
+*.user
+*.suo
+*.log
+
+# App settings (secret keys)
+TradingBotApiV1/TradingBotApiV1/appsettings.Development.json
+TradingBotApiV1/TradingBotApiV1/Credentials.cs
+
+# Frontend node
+trading-bot-frontend/node_modules/
+trading-bot-frontend/build/
+trading-bot-frontend/.env
+
+# Common junk
+*.log
+*.DS_Store
+.idea/
+.vscode/
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+
+# .NET build
+bin/
+obj/
+*.user
+*.vs/
+*.suo
+
+
+.ServiceHub/

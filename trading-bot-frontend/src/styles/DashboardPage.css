@@ -1,0 +1,32 @@
+/* File: src/styles/DashboardPage.css */
+
+.dashboard-page {
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #007bff;
+}
+
+.dashboard-overview {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-overview p {
+  font-size: 18px;
+  color: #495057;
+}
+
+.market-data-section {
+  margin-top: 20px;
+}
+
+.chart-section {
+  margin-top: 20px;
+}
